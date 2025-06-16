@@ -1,3 +1,5 @@
+import streamlit as st
+
 # config.py
 DB_CONFIG = {
     'host': st.secrets["HOST"] ,
