@@ -1,8 +1,8 @@
 # config.py
 DB_CONFIG = {
-    'host': 'pocforetlteam.ctanibxecydf.ap-southeast-1.rds.amazonaws.com',
-    'port': port,
-    'user': 'user',
-    'password': 'password',
-    'database': 'name'
+    'host': st.secrets["HOST"] ,
+    'port': st.secrets["PORT"] ,
+    'user': st.secrets["USER"] ,
+    'password': st.secrets["PASSWORD"] ,
+    'database': st.secrets["DBNAME"] 
 }
